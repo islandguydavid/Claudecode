@@ -1,0 +1,47 @@
+export const TAX_RATES: Record<string, { rate: number; type: string; label: string }> = {
+  AB: { rate: 0.05, type: 'GST', label: 'GST (5%)' },
+  BC: { rate: 0.12, type: 'GST+PST', label: 'GST+PST (12%)' },
+  MB: { rate: 0.12, type: 'GST+PST', label: 'GST+PST (12%)' },
+  NB: { rate: 0.15, type: 'HST', label: 'HST (15%)' },
+  NL: { rate: 0.15, type: 'HST', label: 'HST (15%)' },
+  NS: { rate: 0.15, type: 'HST', label: 'HST (15%)' },
+  NT: { rate: 0.05, type: 'GST', label: 'GST (5%)' },
+  NU: { rate: 0.05, type: 'GST', label: 'GST (5%)' },
+  ON: { rate: 0.13, type: 'HST', label: 'HST (13%)' },
+  PEI: { rate: 0.15, type: 'HST', label: 'HST (15%)' },
+  QC: { rate: 0.14975, type: 'GST+QST', label: 'GST+QST (14.975%)' },
+  SK: { rate: 0.11, type: 'GST+PST', label: 'GST+PST (11%)' },
+  YT: { rate: 0.05, type: 'GST', label: 'GST (5%)' },
+};
+
+export const PROVINCIAL_COURTS: Record<string, string> = {
+  AB: 'Alberta Provincial Court (Civil Division)',
+  BC: 'British Columbia Civil Resolution Tribunal',
+  MB: 'Manitoba Provincial Court (Small Claims)',
+  NB: "New Brunswick Court of King's Bench (Small Claims)",
+  NL: 'Newfoundland and Labrador Provincial Court (Small Claims)',
+  NS: 'Nova Scotia Small Claims Court',
+  NT: 'Northwest Territories Territorial Court',
+  NU: 'Nunavut Court of Justice',
+  ON: 'Ontario Superior Court of Justice (Small Claims Court)',
+  PEI: 'Prince Edward Island Supreme Court (Small Claims)',
+  QC: 'Quebec Small Claims Division (Division des petites créances)',
+  SK: 'Saskatchewan Provincial Court (Small Claims)',
+  YT: 'Yukon Territorial Court',
+};
+
+export const PROVINCE_NAMES: Record<string, string> = {
+  AB: 'Alberta',
+  BC: 'British Columbia',
+  MB: 'Manitoba',
+  NB: 'New Brunswick',
+  NL: 'Newfoundland and Labrador',
+  NS: 'Nova Scotia',
+  NT: 'Northwest Territories',
+  NU: 'Nunavut',
+  ON: 'Ontario',
+  PEI: 'Prince Edward Island',
+  QC: 'Quebec',
+  SK: 'Saskatchewan',
+  YT: 'Yukon',
+};
